@@ -14,9 +14,10 @@ import { AppComponent } from './app.component';
   ],
 
   imports: [
-    BrowserModule,
     AppRoutingModule,
-    SharedModule
+    AppRoutingModule,
+    BrowserModule,
+    SharedModule,
   ],
 
   providers: [],
